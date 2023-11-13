@@ -1,0 +1,69 @@
+body{
+		color:white;
+		background-image: url('https://source.unsplash.com/random/1920x1080/?wallpaper,landscape');
+		text-align: center;
+	}
+.slogo{
+	width:26px;
+}
+.hide{
+	background-color: #36454f2b;
+	width:80%;
+	height:87%;
+	border-radius: 5%;
+}
+#search-bar{
+	width:250px;
+	border-radius:5px;
+	padding: 5px;
+	margin-right: 2px;
+	background-color:#36454f2b;
+	font-size: 120%;
+}
+.sbut{
+	width:36px;
+	position: relative;
+	top:7px;
+	background-color:#36454f2b;
+	border:0px;
+	border-radius:10%;
+	padding: 1px;
+}
+.sbut:hover{
+	background-color:#36454fd0;
+}
+h2{
+	color:#D0F0C0;
+}
+h4{
+	color:#B9D9EB;
+}
+hr{
+	border-color:#1c28412b;
+	width:85%;
+}
+.card{
+	background-color: #36454fd0;
+	width:35%;
+	height: 300px;
+	padding:30px;
+	border-radius: 5%;
+}
+
+@media screen and (max-width: 600px){
+	.card{
+	width:75%;
+	height: 300px;
+	padding:30px;
+	border-radius: 5%;
+	}
+}
+
+@media screen and (max-width: 1050px) and (min-width: 600px){
+	.card{
+	width:450px;
+	height: 300px;
+	padding:30px;
+	border-radius: 5%;
+	}
+}
